@@ -1,6 +1,6 @@
-# maskdetection
+# MaskDetection
 
-## What is maskdetection?
+## What is MaskDetection?
 To further help combat the coronavirus, Didi Chuxing decides to open up its face mask detection technology to the public for free. Developed by DiDi AI team, the mask detection technology is based on DFS face detection algorithm and the face attributes recognition algorithm DiDi employs on its platform. 
 The model has overcome several difficulties like complex lighting changes in a day, face pose variety, face scales, etc. It uses weighted loss function and data augmentation methods to deal with different mask types and uneven mask data during the day and the night. 
 
