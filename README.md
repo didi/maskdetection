@@ -42,6 +42,13 @@ make
 - Our model is pretrained by public ResNet50-caffemodel.
 - Trained by our collected private data.
 - Introduce attention mechanism.
+
 ## Note
 - Expanding the detected face bounding box is to reduce the impact of detection error.
 - We expand each side of the original face bounding box by 40% for mask detection. It can be adjusted according to the actual situation, for example, the dense crowd can appropriately reduce the proportion to fit the actual scene.
+
+# License
+
+<img alt="Apache-2.0 license" src="https://lucene.apache.org/images/mantle-power.png" width="128">
+
+maskdetection is licensed under the terms of the Apache license. See [LICENSE ](LICENSE)for more information.
