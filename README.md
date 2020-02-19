@@ -10,14 +10,12 @@
 - Caffe
 
 ## Installation
+- Clone the repository. We'll call the directory that you cloned as MASK_ROOT.
 ```bash
-Clone the repository. We'll call the directory that you cloned as MASK_ROOT.
 git clone --
 ```
-```bash
-Build Caffe
-see:http://caffe.berkeleyvision.org
-```
+- Build Caffe,see:http://caffe.berkeleyvision.org
+
 ## Usage
 ### Note: In this part, we assume you are in the directory $MASK_ROOT/
 
@@ -25,7 +23,10 @@ see:http://caffe.berkeleyvision.org
 - Configure CMakeLists.txt、 test/CMakeLists.txt、 lib/CMakeLists.txt
 - Compile
 ```bash
-mkdir build / cd build / cmake .. / make
+mkdir build/ 
+cd build/
+cmake ../
+make
 ```
 - After compilation, executable files will be generated in directory: build/bin
 - Detect the face bounding box, and then expand the bounding box to a certain proportion to get a detected face.
