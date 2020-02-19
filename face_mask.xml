@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phonebook>
+    <item>
+		<prototxt>../../model/deploy.prototxt</prototxt>
+		<caffemodel>../../model/face_mask.caffemodel</caffemodel>
+    </item>
+</phonebook>
