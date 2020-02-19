@@ -1,0 +1,18 @@
+# CMakeLists for src directory
+PROJECT(face_mask_so)
+
+find_package(CUDA REQUIRED)
+
+ADD_COMPILE_OPTIONS(-std=c++11)
+
+ADD_DEFINITIONS(-DUSE_OPENCV)
+ADD_DEFINITIONS(-DTIXML_USE_STL)
+
+SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS}  -O0 -Wall -g -ggdb")
+SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3")
+set(CUDA_NVCC_FLAGS_RELEASE -O3)
+
+FILE(GLOB_RECURSE face_mask_SRCS ${PROJECT_SOURCE_DIR}/src/*.cpp)
+
+# shared library
+CUDA_ADD_LIBRARY(face_mask SHARED ${face_mask_SRCS})
