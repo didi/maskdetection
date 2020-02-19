@@ -31,7 +31,7 @@ git clone git@github.com:didi/maskdetection.git
 ```bash
 mkdir build
 cd build
-cmake ../
+cmake ..
 make
 ```
 - After compilation, executable files will be generated in directory: build/bin
