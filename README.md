@@ -18,7 +18,7 @@ This quick detection system can be widely used in travel scenes, with mobile pho
 ## Installation
 - Clone the repository. We'll call the directory that you cloned as MASK_ROOT.
 ```bash
-git clone --
+git clone git@github.com:didi/maskdetection.git
 ```
 - Build Caffe,see:http://caffe.berkeleyvision.org
 
@@ -29,8 +29,8 @@ git clone --
 - Configure CMakeLists.txt、 test/CMakeLists.txt、 lib/CMakeLists.txt
 - Compile
 ```bash
-mkdir build/ 
-cd build/
+mkdir build
+cd build
 cmake ../
 make
 ```
