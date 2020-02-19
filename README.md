@@ -1,6 +1,12 @@
 # maskdetection
 
 ## What is maskdetection?
+To further help combat the coronavirus, Didi Chuxing decides to open up its face mask detection technology to the public for free. Developed by DiDi AI team, the mask detection technology is based on DFS face detection algorithm and the face attributes recognition algorithm DiDi employs on its platform. 
+The model has overcome several difficulties like complex lighting changes in a day, face pose variety, face scales, etc. It uses weighted loss function and data augmentation methods to deal with different mask types and uneven mask data during the day and the night. 
+
+The system can identify non-mask drivers using their uploaded images with 99.5 per cent accuracy, and achieves 98 per cent accuracy during DiDi’s spot inspection with in-vehicle cameras. The model was trained on a dataset of 200,000 faces to ensure its robustness. 
+
+This quick detection system can be widely used in travel scenes, with mobile phone photos, surveillance images etc., and is able to work round the clock.
 
 ## Requirements
 - google/protobuf
