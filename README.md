@@ -47,11 +47,11 @@ make
 - Trained by our collected private data.
 - Introduce attention mechanism.
 
-## Note
-DiDi's mask-recognition service is designed to better protect users from public health risks. An attention-learning mechanism is built in the technology to focus on recognizing the existence of a mask while weakening the recognition of other face areas. The service is subject to various sources of error including brightness, posture or partial image capture. We will continue to improve on the accuracy of the technology. Thank you for your support. 
-
 # License
 
 <img alt="Apache-2.0 license" src="https://lucene.apache.org/images/mantle-power.png" width="128">
 
 maskdetection is licensed under the terms of the Apache license. See [LICENSE ](LICENSE)for more information.
+
+## Note
+DiDi's mask-recognition service is designed to better protect users from public health risks. An attention-learning mechanism is built in the technology to focus on recognizing the existence of a mask while weakening the recognition of other face areas. The service is subject to various sources of error including brightness, posture or partial image capture. We will continue to improve on the accuracy of the technology. Thank you for your support. 
