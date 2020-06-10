@@ -39,8 +39,8 @@ make
 - Run executable files with the detected face to judge if the face is wearing mask.
 
 ### Tips：
-- Expanding the detected face bounding box is to reduce the impact of detection error.
-- We expand each side of the original face bounding box by 40% for mask detection. It can be adjusted according to the actual situation, for example, the dense crowd can appropriately reduce the proportion to fit the actual scene.
+- The detected face bounding box is expanded to reduce the effect of detection errors.
+- Each side of the original face bounding box is expanded by 40% for mask detection. The proportion may be adjusted to the actual scenario/context（e.g., reduced to fit the actual scene in case of a dense crowd).
 
 ## Model
 - Our model is pretrained by public ResNet50-caffemodel.
